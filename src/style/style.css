@@ -46,6 +46,7 @@
 .header__title-center {
     margin: 0 auto;
     align-items: center;
+    align-content: center;
     padding-left: 44px;
     padding-right: 44px;
 }
@@ -55,6 +56,7 @@
 }
 
 .header__title-left-container {
+    margin-top: 104px;
     position: relative;
     height: 330px;
 }
@@ -62,10 +64,39 @@
 .header__title-left-container-woman {
     position: absolute;
     padding-top: 30px;
+    z-index: 2;
 
 }
 
-.header__title-left-woman-dash {
+.header__title-left-woman-dash-left {
     text-align: right;
     padding-left: 30px;
+    z-index: 1;
+}
+
+.header__title-right-container {
+    position: relative;
+    height: 330px;
+}
+
+.header__title-right {
+    justify-content: space-between;
+}
+
+.header__title-right-container-dash-right {
+    padding-right: 30px;
+    z-index: 3;
+}
+
+.header__title-right-container-woman-right {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 30px;
+    z-index: 4;
+}
+
+.header__title-right-list {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
 }
