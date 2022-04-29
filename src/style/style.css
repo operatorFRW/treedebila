@@ -1,8 +1,15 @@
-h1 {
-    margin: 0 auto;
-    padding-top: 40px;
-    font-size: 58px;
-    width: 542px;
+.global-button {
+    padding: 0;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header__section-button-all {
+    background-color: orange;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .header__nav-item-a {
@@ -14,7 +21,7 @@ h1 {
 
 .body {
     margin: 0 auto;
-    font-family: "Raleway", "Arial", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     color: white;
 }
@@ -42,37 +49,106 @@ h1 {
 }
 
 .header__section {
-    padding-top: 154px;
+    padding-top: 92px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .header__section-left-block {
     left: 0;
+    gap: 104px;
+
 }
 
 .header__section-center-block {
-    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 542px;
 }
 
 .header__section-right-block {
-
+    right: 0;
+    gap: 104px;
 }
 
 .header__section-left-block, 
 .header__section-right-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: absolute;
     top: 0;
+}
+
+.header__section-wrap-social {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.header__section-wrapper-image {
+    position: relative;
+}
+
+.header__title-left-container-woman {
+    position: relative;
+    z-index: 2;
+}
+
+.header__title-left-woman-dash-left {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    z-index: 1;
+}
+
+.header__section-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.header__section-title {
+    text-align: center;
+    font-weight: 500;
+    line-height: 120%;
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+
+.header__section-about {
+    width: 378px;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FDFDFD;
+    margin-bottom: 50px;
+}
+
+.header__section-button-all {
+    padding: 20px 47px;
+    color: white;
+}
+
+.header__title-right-container-dash-right {
+    padding-right: 30px;
+    z-index: 3;
+}
+
+.header__title-right-container-woman-right {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 30px;
+    z-index: 4;
 }
 
 /* .header__title {
     display: flex;
 }
-
-.header__title-social-img {
-    padding-bottom: 30px;
-}
-
 
 .header__title-center {
     display: flex;
@@ -94,18 +170,9 @@ h1 {
     height: 330px;
 }
 
-.header__title-left-container-woman {
-    position: absolute;
-    padding-top: 30px;
-    z-index: 2;
 
-}
 
-.header__title-left-woman-dash-left {
-    text-align: right;
-    padding-left: 30px;
-    z-index: 1;
-}
+
 
 .header__title-right-container {
     position: relative;
@@ -117,17 +184,9 @@ h1 {
     justify-content: space-between;
 }
 
-.header__title-right-container-dash-right {
-    padding-right: 30px;
-    z-index: 3;
-}
 
-.header__title-right-container-woman-right {
-    position: absolute;
-    padding-left: 30px;
-    padding-top: 30px;
-    z-index: 4;
-}
+
+
 
 .header__title-right-list {
     display: flex;
