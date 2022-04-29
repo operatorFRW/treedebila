@@ -41,7 +41,31 @@ h1 {
     border-bottom: 2px orange dashed;
 }
 
-.header__title {
+.header__section {
+    padding-top: 154px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__section-left-block {
+    left: 0;
+}
+
+.header__section-center-block {
+    right: 0;
+}
+
+.header__section-right-block {
+
+}
+
+.header__section-left-block, 
+.header__section-right-block {
+    position: absolute;
+    top: 0;
+}
+
+/* .header__title {
     display: flex;
 }
 
@@ -109,4 +133,4 @@ h1 {
     display: flex;
     justify-content: end;
     align-items: flex-end;
-}
+} */
