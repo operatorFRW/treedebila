@@ -1,9 +1,14 @@
+body {
+    color: white;
+}
+
 .global-button {
     padding: 0;
     background: none;
     outline: none;
     border: none;
     cursor: pointer;
+    color: white;
 }
 
 .header__section-button-all {
@@ -71,6 +76,7 @@
 .header__section-right-block {
     right: 0;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .header__section-left-block, 
@@ -80,6 +86,7 @@
     justify-content: space-between;
     position: absolute;
     top: 0;
+    height: 100%;
 }
 
 .header__section-wrap-social {
@@ -136,6 +143,7 @@
 
 .header__section-dash--right {
     transform: translateX(-30px);
+    
 }
 
 .header__section-woman {
@@ -149,6 +157,7 @@
     align-items: center;
     gap: 15px;
     flex-direction: row-reverse;
+
 }
 
 /* .header__title {
