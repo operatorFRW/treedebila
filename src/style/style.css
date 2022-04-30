@@ -2,6 +2,12 @@ body {
     color: white;
 }
 
+h2 {
+    color: black;
+    font-size: 58px;
+    font-weight: 500;
+}
+
 .global-button {
     padding: 0;
     background: none;
@@ -169,6 +175,7 @@ body {
     text-align: center;
     font-weight: 500;
     font-size: 58px;
+    
 }
 
 .main__stat-text {
@@ -182,6 +189,26 @@ body {
 .main__people {
     padding-left: 135px;
     padding-right: 135px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    gap: 100px;
+    margin-bottom: 120px;
+}
+
+.main__people-text {
+    width: 500px;
+}
+
+.main__people-info {
+    line-height: 150%;
+    font-weight: 400;
+    
+}
+
+.main__people-title {
+    font-size: 58px;
+    margin-bottom: 20px;
 }
 
 .main__people-button {
@@ -189,4 +216,103 @@ body {
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 20px 38px;
+    margin-top: 50px;
 }
+
+.main__people-photo-container {
+    display: flex;
+    gap: 30px;
+}
+
+.main__people-photo-text {
+    width: 170px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.main__people-photo {
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main__learn {
+    background-color: #10B582;
+    padding: 120px 135px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.main__learn-image {
+    position: relative;
+}
+
+.main__learn-image-imac {
+    position: absolute;
+    margin-top: 30px;
+    z-index: 5;
+}
+
+.main__learn-image-dash {
+       padding-left: 30px;
+}
+
+.main__learn-info {
+    width: 500px;
+}
+
+.main__learn-title {
+    color: white;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.main__learn-text {
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 50px;
+    width: 478px;
+}
+
+.main__learn-info-button {
+    background-color: orange;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px 74px;
+}
+
+.main__stars {
+    padding: 120px 135px;
+    text-align: center;
+}
+
+.main__stars-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main__stars-container-block {
+    color: black;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);    
+    border-radius: 10px;
+}
+
+.main__stars-container-block-img {
+    margin-bottom: 15px;
+}
+
+.main__stars-button {
+    background-color: #10B582;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px 74px;
+}
+
