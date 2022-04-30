@@ -62,7 +62,6 @@ body {
 .header__section-left-block {
     left: 0;
     gap: 104px;
-
 }
 
 .header__section-center-block {
@@ -90,7 +89,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-
 }
 
 .header__section-wrapper-image {
@@ -100,7 +98,6 @@ body {
 .header__section-wrapper-image-right {
     margin-top: 30px;
 }
-
 
 .header__section-logo {
     display: flex;
@@ -139,8 +136,7 @@ body {
 }
 
 .header__section-dash--right {
-    transform: translateX(-30px);
-    
+    transform: translateX(-30px);  
 }
 
 .header__section-woman {
@@ -156,4 +152,41 @@ body {
     align-items: center;
     gap: 15px;
     flex-direction: row-reverse;
+}
+
+.main__stat {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.main__stat-title {
+    color: #10B582;
+    text-align: center;
+    font-weight: 500;
+    font-size: 58px;
+}
+
+.main__stat-text {
+    margin-top: 15px;
+    width: 270px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.main__people {
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.main__people-button {
+    background-color: #10B582;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px 38px;
 }
