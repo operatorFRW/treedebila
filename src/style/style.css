@@ -347,6 +347,35 @@ h2 {
     padding: 20px 56px;
 }
 
-.footer {
+.footer__menu {
     border-top: 1px solid #353A5A;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer__menu-block-title {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer__menu-block-item {
+    list-style: none;
+    color: #353A5A;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer__menu-block-text {
+    display: block;
+    color: #353A5A;
+}
+
+.footer__menu-block-title-post {
+    text-decoration: none;
+    color:#353A5A;
 }
