@@ -349,6 +349,7 @@ h2 {
 
 .footer__menu {
     border-top: 1px solid #353A5A;
+    border-bottom: 1px solid #353A5A;
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -378,4 +379,37 @@ h2 {
 .footer__menu-block-title-post {
     text-decoration: none;
     color:#353A5A;
+}
+
+.footer__info {
+    padding: 30px 135px; 
+    display: flex;
+    justify-content: space-between;
+    color: #353A5A;
+    font-size: 14px;
+
+}
+
+.footer__info-link {
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.footer__menu-logo {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 27px;
+}
+
+.footer__menu-text {
+    width: 270px;
+    font-size: 14px;
+    color: #353A5A;
+    margin-bottom: 47px;
+}
+
+.footer__menu-social {
+    display: flex;
+    color: #353A5A;
+    gap: 25px;
 }
