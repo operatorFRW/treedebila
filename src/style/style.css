@@ -21,6 +21,8 @@ h2 {
     background-color: orange;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
+    padding: 20px 47px;
+    color: white;
 }
 
 .header__nav-item-a {
@@ -128,11 +130,6 @@ h2 {
     text-align: center;
     color: #FDFDFD;
     margin-bottom: 50px;
-}
-
-.header__section-button-all {
-    padding: 20px 47px;
-    color: white;
 }
 
 .header__section-dash {
@@ -279,10 +276,11 @@ h2 {
 }
 
 .main__learn-info-button {
-    background-color: orange;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 20px 74px;
+    
+    background-color: orange;
 }
 
 .main__stars {
@@ -323,9 +321,7 @@ h2 {
     justify-content: center;
     text-align: center;
     background: url(/src/img/photo/background_section_share.png);
-    background-size: cover;
-    margin-bottom: 120px;
-    
+    background-size: cover;    
 }
 
 .main__invaited-block {
@@ -346,6 +342,10 @@ h2 {
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 20px 56px;
+}
+
+.footer {
+    padding-top: 120px;
 }
 
 .footer__menu {
