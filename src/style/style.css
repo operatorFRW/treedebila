@@ -63,7 +63,7 @@ body {
 }
 
 .header {
-    background-color: #10B582;
+    background-color: var(--color-green);
     padding-left: 135px;
     padding-right: 135px;
     padding-bottom: 120px;  
@@ -84,7 +84,7 @@ body {
 }
 
 .header__nav-link:hover {
-    border-bottom: 2px orange dashed;
+    border-bottom: 2px var(--color-orange) dashed;
 }
 
 .header__section {
@@ -254,52 +254,49 @@ body {
     gap: 30px;
 }
 
-.main__learn {
-    background-color: #10B582;
-    padding: 120px 135px;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    
+.learn {
+    background-color: var(--color-green);   
 }
 
-.main__learn-image {
+.learn-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.learn__image {
+    display: flex;
     position: relative;
 }
 
-.main__learn-image-imac {
-    position: absolute;
+.learn__image-imac {
+    z-index: 1;
     margin-top: 30px;
-    z-index: 5;
 }
 
-.main__learn-image-dash {
-       padding-left: 30px;
+.learn__image-dash {
+    position: absolute;
+    left: 30px;
 }
 
-.main__learn-info {
+.learn__info {
     width: 500px;
 }
 
-.main__learn-title {
-    color: white;
+.learn__info-title {
+    color: var(--color-white);
     line-height: 120%;
-    margin-bottom: 20px;
+    text-align: left;
 }
 
-.main__learn-text {
-    font-weight: 400;
+.learn__info-article {
     line-height: 150%;
     margin-bottom: 50px;
     width: 478px;
 }
 
-.main__learn-info-button {
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-    padding: 20px 74px;
-    
-    background-color: orange;
+.learn-button {  
+    background-color: var(--color-orange);
 }
 
 .main__stars {
