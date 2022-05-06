@@ -107,16 +107,20 @@ body {
 .wrapper__image {
     display: flex;
     position: relative;
+    margin-left: 30px;
+    padding-bottom: 30px;
+    width: 270px;
 }
 
 .wrapper__image-woman {
     position: absolute;
     z-index: 1;
+    left: -30px;
+    top: 30px;
 }
 
 .wrapper__image-dash {
     display: flex;
-    transform: translate(30px, -30px);
 }
 
 .container-center {
@@ -267,6 +271,8 @@ body {
 .learn__image {
     display: flex;
     position: relative;
+    min-width: 470px;
+    max-height: 340px;
 }
 
 .learn__image-imac {
