@@ -2,13 +2,19 @@
   height: 500px;
   
   background-color: #F6F6F6;
-  padding: 10;
+ 
   box-sizing: border-box;
+}
+.about__title {
+  font-family: "Trebuchet MS", Verdana, sans-serif ;
+  font-size: 34px;
+  margin-bottom: 17px;
 }
 .container{
 
   text-align: center;  
-    padding: 10px 740px;
+    padding: 120px 740px;
+    width: 485px;
   
     
    
@@ -20,7 +26,8 @@
 .about__text{
   font-family: "Trebuchet MS", Verdana, sans-serif ;
   font-size: 18px;
-  /* line-height: 18px; */
+  line-height: 21.83px;
   margin-bottom: 30px;
-  color: red;
+  
+  color: black;
 }
