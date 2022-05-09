@@ -1,0 +1,26 @@
+.about{
+  height: 500px;
+  
+  background-color: #F6F6F6;
+  padding: 10;
+  box-sizing: border-box;
+}
+.container{
+
+  text-align: center;  
+    padding: 10px 740px;
+  
+    
+   
+
+    
+  
+}
+
+.about__text{
+  font-family: "Trebuchet MS", Verdana, sans-serif ;
+  font-size: 18px;
+  /* line-height: 18px; */
+  margin-bottom: 30px;
+  color: red;
+}
