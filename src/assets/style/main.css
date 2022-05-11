@@ -1,22 +1,23 @@
 .about{
-  height: 500px;
-  
+  display: flex;
   background-color: #F6F6F6;
- 
+  justify-content: center;
   box-sizing: border-box;
+  align-items: center;
+ 
 }
 .about__title {
   font-family: "Trebuchet MS", Verdana, sans-serif ;
   font-size: 34px;
-  margin-bottom: 17px;
+  
+  line-height: 43.06px;
+  margin: 17px;
 }
 .container{
-
   text-align: center;  
-    padding: 120px 740px;
-    width: 485px;
-  
-    
+  max-width: 485px;
+  max-height: 279px;
+  margin: 102.5px 480px 107px 480px;  
    
 
     
