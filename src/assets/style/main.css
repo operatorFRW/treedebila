@@ -9,6 +9,10 @@ p {
   align-items: center;
  
 }
+.container{
+  max-width: 943.61px; /*эта фигня должна отвечать за то чтобы весь контент был одинаков по ширене, там где я добавляю этот класс и не вылезал за общую ширину макета.*/
+  margin: 0 auto;
+}
 .about__innerWrap {
   text-align: center;  
   max-width: 485px;
